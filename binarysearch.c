@@ -3,13 +3,14 @@
 void main()
 {
     int low,high,mid,key,n,i;
+    int a[20];
     printf("enter the numbers of elements");
     scanf("%d",&n);
-    printf("enter %d numbers in ascending order/n");
+    printf("enter %d numbers in ascending order/n",n);
 for(i=0;i<n;i++)
-scanf(%d",&a[i];
+scanf("%d",&a[i]);
 printf("enter the number to be search");
-scan("%d,&key);
+scanf("%d",&key);
 low=0;
 high=n-1;
 while(low<=high)
@@ -24,8 +25,17 @@ while(low<=high)
         low=mid+1;
         else
         high=mid-1;
-        }
 }
+printf("number not found");
+}
+
+
+
+
+
+       
+
+
 
 
        
